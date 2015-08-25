@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package q1w1;
+package q1_1w1;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -19,7 +19,7 @@ public class T3 extends Thread
     public void run()
     {
         
-        int count = 10;
+        long count = 10;
         while(true)
         {
             try

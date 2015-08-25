@@ -3,25 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package q1w1;
+package q1_2w1;
 
 /**
  *
  * @author pagh
  */
-public class T1 extends Thread
+public class T2 extends Thread
 {
 
-    long count = 0;
-
-    @Override
     public void run()
     {
+        
+    }
 
-        for (long i = 1; i < 1000000000; i++)
-        {
-            count = count + i;
-        }
-        System.out.println("summerer fra T1 til en mil: " + count);
+    public int gogo(Even even)
+    {
+//        System.out.println("T1: " + even.next());
+        return even.next();
     }
 }
