@@ -12,6 +12,7 @@ package q1_2w1;
 public class Q1_1w1
 {
 
+    public static Object locker = new Object();
     public static void main(String[] args)
     {
         boolean abekat = true;
